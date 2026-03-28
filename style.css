@@ -1,50 +1,63 @@
-h1{
-    text-align: center;
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    line-height: 1.4;
 }
 
-h2{
-    text-align: center;
+.clase-titulo {
+    color: #e91e63;
+    font-weight: normal;
+    font-size: 28px;
+    margin-bottom: 30px;
 }
 
-.contenedor {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-}
-
-.caja {
-    border: 2px solid #4a148c;
-    padding: 15px;
-    width: 300px;
-    border-radius: 8px;
-}
-
-
-
-.p1 {
-    font-family: "Trirong", "Times New Roman", serif; 
-    font-size: 16px;
-    color: #2c3e50;
-    text-align: justify;
-    line-height: 1.8;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-}
-
-.p2 {
-    font-family: "Audiowide", Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
+.texto-tachado-neon {
+    color: #3f51b5;
     text-transform: uppercase;
+    text-decoration: line-through;
+    text-decoration-color: #3f51b5;
+    text-shadow: 0 0 5px #ff80ab, 0 0 10px #ff80ab;
+    text-align: right;
+    font-size: 16px;
     letter-spacing: 2px;
-    text-align: center;
-    color: #a760ff;
 }
 
-.p3 {
-    font-family: "Sofia", cursive;
-    font-size: 20px;
+.prueba-sombra {
+    color: #fff;
+    font-family: 'Times New Roman', serif;
+    font-size: 24px;
+    text-shadow: 2px 2px 0px #f4d03f, 4px 4px 5px rgba(0,0,0,0.2);
+    margin-top: 40px;
+}
+
+.bloque-parrafos p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.p-italica {
     font-style: italic;
-    text-indent: 40px;
-    word-spacing: 6px;
-    color: darkblue;
+    color: #333;
+}
+
+.p-negrita-italica {
+    font-weight: bold;
+    font-style: italic;
+    color: #000;
+}
+
+.p-pequeno {
+    font-size: 11px;
+    color: #555;
+}
+
+.p-claro {
+    color: #bdc3c7;
+}
+
+.p-cursiva-final {
+    font-family: 'Dancing Script', cursive; /* Fuente elegante tipo manuscrita */
+    font-size: 18px;
+    color: #2c3e50;
 }
